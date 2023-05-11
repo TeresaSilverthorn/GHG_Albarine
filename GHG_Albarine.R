@@ -1,4 +1,4 @@
-#### Data and statistical analysis and visalization for GHG data collected along the Albarine River network, France in 2021 ####
+#### Data and statistical analysis and visualization for GHG data collected along the Albarine River network, France in 2021 ####
 
 # Associated with the publication: River network-scale drying impacts the spatio-temporal dynamics of greenhouse gas fluxes #
 
@@ -1806,7 +1806,7 @@ CH4mtosource <- ggplot(dat_CH4_num_flow_i1NA, aes(m_to_source/100, CH4_mg_m2_d, 
 CH4mtosource 
 
 # Intermittent CH4 vs OM stock
-CH4OMint <- ggplot(subset(dat_CH4_num_flow_i1NA,Stock_Benth_g.m2<15) , aes(Stock_Benth_g.m2, CH4_mg_m2_d)) + geom_point(colour="#8BCEB9", shape=17, size=3.5, alpha=0.3)  +  theme_bw() +  theme(axis.title = element_text(), panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank(), panel.border = element_blank(), legend.title=element_blank(), axis.ticks.x=element_blank(), legend.justification = c("left", "top"), legend.box.just = "right", legend.background = element_rect(colour = 'black', fill = 'white', linetype='solid'), legend.spacing.y = unit(0, "mm"), axis.line = element_line(colour = "black"), text = element_text(size = 12), axis.text = element_text(size = 12, colour="black"))  + ylab(expression(mg~CH[4]*`-C`~m^-2~d^-1)) + xlab(expression(`OM stock g`~m^-2)) +  stat_smooth(colour="grey", geom="line", size=1, alpha=0.5, method = "lm", se=FALSE,  formula = y ~ x) + xlim(0, 2.5)
+CH4OMint <- ggplot(subset(dat_CH4_num_flow_i1NA,Stock_Benth_g.m2<15) , aes(Stock_Benth_g.m2, CH4_mg_m2_d)) + geom_point(aes(colour=position), shape=17, size=3.5, alpha=0.3)  +  theme_bw() +  theme(axis.title = element_text(), panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank(), panel.border = element_blank(), legend.title=element_blank(), axis.ticks.x=element_blank(), legend.position = c(0.8, 0.8), legend.spacing.y = unit(0, "mm"), axis.line = element_line(colour = "black"), text = element_text(size = 12), axis.text = element_text(size = 12, colour="black"))  + ylab(expression(mg~CH[4]*`-C`~m^-2~d^-1)) + xlab(expression(`OM stock g`~m^-2)) +  stat_smooth(aes(colour=position), geom="line", size=1, alpha=0.7, method = "lm", se=FALSE,  formula = y ~ x) + xlim(0, 2.5) + scale_color_manual(values=c("#8BCEB9", "#a1691c")) 
 CH4OMint
 
 #Intermittent N2O vs water temperature
@@ -1821,7 +1821,7 @@ CO2_flow_pNA$position <- dplyr::case_when(
 )
 median(CO2_flow_pNA$m_to_source)
 
-CO2_flowp_OM<- ggplot(CO2_flow_pNA, aes(Sed_OM, CO2_g_m2_d)) + geom_point(aes(colour=position), size=4.5, alpha=0.3) +  theme_bw() +  theme(axis.title = element_text(), panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank(), panel.border = element_blank(),  legend.position = c(.5, .95), axis.ticks.x=element_blank(), legend.title=element_blank(), legend.justification = c("left", "top"), legend.box.just = "right", axis.line = element_line(colour = "black"), text = element_text(size = 12), axis.text = element_text(size = 12, colour="black")) +  ylab(expression(g~CO[2]*`-C`~m^-2*~d^-1))  + xlab("Sediment OM content (%)") +   stat_smooth(aes(colour=position), geom="line", size=1, alpha=0.7, method = "lm", se=FALSE,  formula = y ~ x) + scale_color_manual(values=c("#1C54A1", "#a1691c")) 
+CO2_flowp_OM<- ggplot(CO2_flow_pNA , aes(Sed_OM, CO2_g_m2_d)) + geom_point(colour="#1C54A1", size=4.5, alpha=0.3) +  theme_bw() +  theme(axis.title = element_text(), panel.grid.major = element_blank(), panel.grid.minor = element_blank(),panel.background = element_blank(), panel.border = element_blank(),  legend.position = c(.5, .95), axis.ticks.x=element_blank(), legend.title=element_blank(), legend.justification = c("left", "top"), legend.box.just = "right", legend.margin = margin(3, 3, 3, 3),axis.line = element_line(colour = "black"), text = element_text(size = 12), axis.text = element_text(size = 12, colour="black")) +  ylab(expression(g~CO[2]*`-C`~m^-2*~d^-1))  + xlab("Sediment OM content (%)")  + stat_smooth(geom="line", color="grey", size=1, alpha=0.5, method = "lm", se=FALSE,  formula = y ~ x)  + xlim(0, 7.5)
 CO2_flowp_OM
 
 #Perennial CO2 vs percent non-perennial upstream
