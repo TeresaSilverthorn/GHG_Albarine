@@ -11,16 +11,16 @@ Model_coefficients_GHGdry.csv and Model_coefficients_GHGrip.csv
 Include the model coefficients from the top models identifying the drivers of dry condition and riparian soil GHG fluxes, respectively 
 
 Column title meanings: 
-"ID_unique": unique identifier for each sampling point GHG measurement
-"CO2_mg_m2_h": CO2 flux
-"CH4_ug_m2_h": CH4 flux
-"Air_temp": Data logger airtemperature at GHG sampling time in degrees celsius                    
-"pressure_calc_atm": Atmospheric pressure at each site/sampling time in atm                 
-"campaign": Sampling campaign number
+"ID_unique" : unique identifier for each sampling point GHG measurement
+"CO2_mg_m2_h" : CO2 flux
+"CH4_ug_m2_h" : CH4 flux
+"Air_temp" : Data logger airtemperature at GHG sampling time in degrees celsius                    
+"pressure_calc_atm" : Atmospheric pressure at each site/sampling time in atm                 
+"campaign" : Sampling campaign number
 "Site" : Unique ID for each study site                            
 "drying_regime" : Flow regime (perennial, intermittent_long_, intermittent_moderate)
 "soil_temp": Average soil temperature in degrees Celsius taken from 3 measurememtns at each riparian soil GHG sampling point                        
-"soil_VWC": cc  
+"soil_VWC" : cc  
 "flow_state" : flowing conditions (dry, pool, flowing)                      
 "habitat_type" : for flowing conditions, GHG measurement in pool (more lentic conditions) or riffle (more lotic conditions)                      
 "pool_riffle_depth_cm"  : water depth (cm) of flowing condition measurements           
