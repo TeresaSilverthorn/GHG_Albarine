@@ -13,11 +13,8 @@ Include the model coefficients from the top models identifying the drivers of dr
 Column title meanings : 
 
 "ID_unique" : unique identifier for each sampling point GHG measurement  
-
 "CO2_mg_m2_h" : CO2 flux 
-
 "CH4_ug_m2_h" : CH4 flux 
-
 "Air_temp" : Data logger air temperature at GHG sampling time in degrees celsius                    
 "pressure_calc_atm" : Atmospheric pressure at each site/sampling time in atm                 
 "campaign" : Sampling campaign number
