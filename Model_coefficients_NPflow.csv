@@ -1,0 +1,14 @@
+x,y,ymin,ymax,PANEL,stderror,group,flipped_aes,colour,size,linetype,shape,fill,alpha,stroke,variable,label
+1,0.82851,,,,0.09644,,,,,,,,,,CO2,Embeddedness
+2,0.17845,,,,0.07638,,,,,,,,,,CO2,Time since rewetting
+3,0.8608,,,,0.07988,,,,,,,,,,CO2,Water temperature
+3,0.4491,,,,0.08995,,,,,,,,,,CH4,Water temperature
+4,0.46307,,,,0.11874,,,,,,,,,,CH4,Dissolved oxygen
+5,0.63702,,,,0.18626,,,,,,,,,,N2O,Distance to source
+6,-4.12214,,,,0.57793,,,,,,,,,,N2O,OM stock
+7,0.35252,,,,0.06831,,,,,,,,,,N2O,Time since rewetting
+8,0.24337,,,,0.06458,,,,,,,,,,N2O,Velocity
+9,0.43682,,,,0.09734,,,,,,,,,,N2O,Water temperature
+10,-1.10762,,,,0.60913,,,,,,,,,,N2O,Distance to source: OM stock
+11,0.48541,,,,0.2353,,,,,,,,,,N2O,Dissolved N
+12,-0.62192,,,,0.166,,,,,,,,,,N2O,N-Nitrate

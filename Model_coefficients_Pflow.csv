@@ -1,0 +1,8 @@
+x,y,ymin,ymax,PANEL,stderror,group,flipped_aes,colour,size,linetype,shape,fill,alpha,stroke,variable,label,,,,,,,,,,,,
+1,0.8463,,,,0.2015,,,,,,,,,,CO2,% non-perennial upstream,,,,,,,,,,,,
+2,0.2245,,,,0.1027,,,,,,,,,,CO2,Sediment OM,,,,,,,,,,,,
+3,-0.3194,,,,0.1065,,,,,,,,,,CO2,OM stock,,,,,,,,,,,,
+6,0.49544,,,,0.09645,,,,,,,,,,N2O,Velocity,,,,,,,,,,,,
+7,0.51414,,,,0.10364,,,,,,,,,,N2O,N-Nitrate,,,,,,,,,,,,
+8,0.55806,,,,0.11376,,,,,,,,,,N2O,Dissolved N,,,,,,,,,,,,
+9,0.51909,,,,0.21899,,,,,,,,,,N2O,% non-perennial upstream,,,,,,,,,,,,

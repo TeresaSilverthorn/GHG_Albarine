@@ -1,8 +1,8 @@
-"","x","y","ymin","ymax","PANEL","group","flipped_aes","colour","size","linetype","shape","fill","alpha","stroke","variable","label"
-"1",2,0.24791514614119,0.229641514823897,0.266188777458483,"1",2,FALSE,"black",0.5,1,19,NA,NA,1,"CO2","Soil_temp"
-"2",1,-0.0903286333381564,-0.113341480514628,-0.0673157861616852,"1",1,FALSE,"black",0.5,1,19,NA,NA,1,"CO2","Soil_moist"
-"3",1,0.329459536827917,0.295489292430753,0.363429781225081,"1",1,FALSE,"black",0.5,1,19,NA,NA,1,"CH4","Soil_moist"
-"4",2,-0.0809193678002529,-0.10037446593962,-0.0614642696608858,"1",2,FALSE,"black",0.5,1,19,NA,NA,1,"CH4","Soil_temp"
-"5",2,0.0498242676707039,-0.00360527501108741,0.103253810352495,"1",2,FALSE,"black",0.5,1,19,NA,NA,1,"N2O","Soil_temp"
-"6",1,0.0338548610162687,-0.0256682525216619,0.0933779745541992,"1",1,FALSE,"black",0.5,1,19,NA,NA,1,"N2O","Soil_moist"
-"7",3,0.115665666300918,0.072382533949025,0.158948798652811,"1",3,FALSE,"black",0.5,1,19,NA,NA,1,"N2O","Soil_temp*Soil_moist"
+,x,y,ymin,ymax,stderror,PANEL,group,flipped_aes,colour,size,linetype,shape,fill,alpha,stroke,variable,label2,label
+1,2,0.33528,,,0.02037,,,FALSE,black,0.5,1,19,NA,NA,1,CO2,Soil_temp,Temperature
+2,1,-0.06589,,,0.01554,,,FALSE,black,0.5,1,19,NA,NA,1,CO2,Soil_moist,Moisture
+3,1,0.091198,,,0.009403,,,FALSE,black,0.5,1,19,NA,NA,1,CH4,Soil_moist,Moisture
+4,2,-0.038285,,,0.009205,,,FALSE,black,0.5,1,19,NA,NA,1,CH4,Soil_temp,Temperature
+5,2,0.18959,,,0.02737,,,FALSE,black,0.5,1,19,NA,NA,1,N2O,Soil_temp,Temperature
+6,1,0.07756,,,0.02472,,,FALSE,black,0.5,1,19,NA,NA,1,N2O,Soil_moist,Moisture
+7,3,0.2566,,,0.11888,,,FALSE,black,0.5,1,19,NA,NA,1,N2O,Flow state flowing,Flow state - Flowing

@@ -1,7 +1,4 @@
-"","x","y","ymin","ymax","PANEL","group","flipped_aes","colour","size","linetype","shape","fill","alpha","stroke","variable","label"
-"1",2,2.09023553996876,-0.0355522371364332,4.21602331707395,"1",2,FALSE,"black",0.5,1,19,NA,NA,1,"CO2","Sed_pH"
-"2",1,-0.129069660608006,-0.816969680975737,0.558830359759726,"1",1,FALSE,"black",0.5,1,19,NA,NA,1,"CO2","Sed_moist"
-"3",3,-0.80103029399745,-1.25291251811221,-0.349148069882693,"1",3,FALSE,"black",0.5,1,19,NA,NA,1,"CO2","Sed_temp"
-"4",4,1.50580007477997,0.99480896102554,2.0167911885344,"1",4,FALSE,"black",0.5,1,19,NA,NA,1,"CO2","Sed_temp*Sed_moist"
-"5",1,-1.68455401269838,-2.66725881393212,-0.701849211464631,"1",1,FALSE,"black",0.5,1,19,NA,NA,1,"CH4","Sed_pH"
-"6",1,-0.30797213686817,-0.928863986041159,0.312919712304819,"1",1,FALSE,"black",0.5,1,19,NA,NA,1,"N2O","N_content"
+Model_coefficients_GHGdry2022.10.27,x,y,ymin,ymax,stderror,PANEL,group,flipped_aes,colour,size,linetype,shape,fill,alpha,stroke,variable,label
+2,1,0.13414,,,0.04144,1,1,FALSE,black,0.5,1,19,NA,NA,1,CO2,Sed_moist
+,,,,,,,,,,,,,,,,CH4,
+,,,,,,,,,,,,,,,,N2O,
