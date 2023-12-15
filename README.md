@@ -10,7 +10,7 @@ Include the site-averaged GHG data and a subset of environmental data, also aver
 Model_coefficients_GHGdry.csv and Model_coefficients_GHGrip.csv
 Include the model coefficients from the top models identifying the drivers of dry condition and riparian soil GHG fluxes, respectively 
 
-Column title meanings : 
+Data Dictionary
 
 "ID_unique" : unique identifier for each sampling point GHG measurement  
 "CO2_mg_m2_h" : CO2 flux 
