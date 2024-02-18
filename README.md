@@ -13,8 +13,8 @@ Include the model coefficients from the top models identifying the drivers of dr
 Data Dictionary
 
 "ID_unique" : unique identifier for each sampling point GHG measurement  
-"CO2_mg_m2_h" : CO2 flux 
-"CH4_ug_m2_h" : CH4 flux 
+"CO2_mg_m2_h" : CO2 flux in mg CO2-C m-2 h-1
+"CH4_ug_m2_h" : CH4 flux in mg CH4-C m-2 h-1 
 "Air_temp" : Data logger air temperature at GHG sampling time in degrees celsius                    
 "pressure_calc_atm" : Atmospheric pressure at each site/sampling time in atm                 
 "campaign" : Sampling campaign number
@@ -33,10 +33,10 @@ Data Dictionary
 "point" : Identifier for each GHG sampling point with each site                           
 "habitat" : Habitat type: Riparian, Flowing, Dry, Pool                          
 "ecosystem"  : Aquatic or riparian habitat                      
-"CO2_g_m2_d"   : CO2 flux                     
-"CH4_mg_m2_d"  : CH4 flux                    
-"ug_N2ON_m2_h" : N2O flux                    
-"mg_N2ON_m2_d"  : N2O flux                    
+"CO2_g_m2_d"   : CO2 flux in g CO2-C m-2 d-1                     
+"CH4_mg_m2_d"  : CH4 flux in mg CH4-C m-2 d-1                   
+"ug_N2ON_m2_h" : N2O flux in ug N2O-N m02 h-1                    
+"mg_N2ON_m2_d"  : N2O flux in ug N2O-N m02 d-1                     
 "Canopy_Cover_Benth" : In-stream canopy cover (%)                
 "Stock_Benth_g.m2"  : In-stream organic matter stock (g/m2)               
 "Max..wetted.width..m."  : Maximum stream wetted width (m)          
