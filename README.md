@@ -23,6 +23,7 @@ Data Dictionary
 "pressure_calc_atm" : Atmospheric pressure at each site/sampling time in atm    
 
 "campaign" : Sampling campaign number
+
 "Site" : Unique ID for each study site 
 
 "drying_regime" : Flow regime (perennial, intermittent_long_, intermittent_moderate)
