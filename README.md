@@ -186,9 +186,14 @@ Data Dictionary
 
 "NH4_N_ugL"  : Ammonium-nitrogen (ug/L)  
 
-"bedrock"  : Bedrock stream substrate (%)                         
-"boulders"  : Boulder stream substrate (%)                       
-"cobbles"   : Cobble stream substrate (%)                        
-"gravel"  : Gravel stream substrate (%)                         
-"sand" : Sand stream substrate (%)                             
+"bedrock"  : Bedrock stream substrate (%) 
+
+"boulders"  : Boulder stream substrate (%) 
+
+"cobbles"   : Cobble stream substrate (%)
+
+"gravel"  : Gravel stream substrate (%)  
+
+"sand" : Sand stream substrate (%) 
+
 "silt"   : Silt stream substrate (%)                           
