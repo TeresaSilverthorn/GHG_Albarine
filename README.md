@@ -1,5 +1,5 @@
 # GHG_Albarine
-R script and data files associated with analysis and visualization of data from the publication "River network-scale drying impacts the spatio-temporal dynamics of greenhouse gas fluxes" 
+R script and data files associated with analysis and visualization for the publication "River network-scale drying impacts the spatio-temporal dynamics of greenhouse gas fluxes" 
 
 dat_clean.csv
 Includes all of the raw data. 
